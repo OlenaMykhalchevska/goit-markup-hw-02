@@ -19,6 +19,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  color: #212121;
   /* color:#212121;*/
 }
 
@@ -33,6 +34,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  color: #757575;
   /* color:#757575;*/
 }
 
@@ -42,6 +44,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  color: #757575;
   /* color:#757575;*/
 }
 
@@ -55,12 +58,16 @@
   color: #2196f3;
 }
 
+.hero {
+  background-color: #2f303a;
+}
+
 .main-title {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 6%;
+  line-height: 1.8;
+  color: floralwhite;
   /* color:#FFFFFF;*/
 }
 
@@ -70,6 +77,8 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  background-color: #2196f3;
+  color: floralwhite;
   /* color:#FFFFFF;*/
 }
 .modal-btn:hover,
@@ -83,6 +92,7 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 3%;
+  color: #212121;
   /* color:#212121;*/
 }
 .description {
@@ -91,6 +101,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 3%;
+  color: #757575;
   /* color:#757575;*/
 }
 .title {
@@ -107,7 +118,7 @@
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 3%;
-  /* color:#212121;*/
+  color: #212121;
 }
 .profession {
   font-family: "Roboto", sans-serif;
@@ -115,5 +126,18 @@
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 3%;
+  color: #757575;
   /* color:#757575;*/
+}
+
+.footer {
+  background-color: #2f303a;
+}
+.aside {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 2%;
+  color: #ffffff;
 }
