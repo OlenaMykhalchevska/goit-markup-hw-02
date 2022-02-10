@@ -3,7 +3,7 @@
 }
 
 .active-page {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .list {
@@ -85,10 +85,10 @@
 
 .modal-btn {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 2%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
   background-color: #2196f3;
   color: floralwhite;
   /* color:#FFFFFF;*/
@@ -98,6 +98,32 @@
   background-color: #ffffff;
   color: #2196f3;
 }
+.item-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: #2196f3;
+  color: floralwhite;
+}
+
+.item-btn:hover,
+.item-btn:focus {
+  background-color: #ffffff;
+  color: #2196f3;
+}
+
+.items-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
 .subtitle-list {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
